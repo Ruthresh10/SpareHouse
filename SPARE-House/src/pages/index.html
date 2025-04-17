@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARE House - Products</title>
+    <link rel="stylesheet" href="../assets/css/sparehouse_styles.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="/SPARE-House/src/assets/images/login-logo.png (2).webp" alt="SPARE House Logo">
+            <h1>SPARE<span>House</span></h1>
+            <p>Every Spare Available Here!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#account-details">Account</a></li>
+                <li><a href="login.html" class="btn login-btn">Login/Sign up</a></li> 
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" style="background-image: url('/SPARE-House/src/assets/images/login-background.png.webp');">
+    <div class="container">
+        <h2>Quality Spare Parts</h2>
+        <p>For All Indian Vehicles</p>
+    </div>
+</section>
+
+<section id="products" class="products-section">
+    <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <div class="filter-options">
+            <select id="brandFilter">
+                <option value="all">All Brands</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+                <option value="tata">Tata</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="royal-enfield">Royal Enfield</option>
+            </select>
+            <select id="modelFilter">
+                <option value="all">All Models</option>
+                <option value="corolla">Corolla</option>
+                <option value="civic">Civic</option>
+                <option value="mustang">Mustang</option>
+                <option value="nexon">Nexon</option>
+                <option value="creta">Creta</option>
+                <option value="classic-350">Classic 350</option>
+                <option value="himalayan">Himalayan</option>
+            </select>
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="engine">Engine</option>
+                <option value="brakes">Brakes</option>
+                <option value="suspension">Suspension</option>
+                <option value="electrical">Electrical</option>
+                <option value="body">Body</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search for parts...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="products-grid" id="productsContainer">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <h2>SPARE<span>House</span></h2>
+            <p>Your trusted partner for quality auto parts.</p>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2025 SPARE House. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="../assets/js/sparehouse_scripts.js"></script>
+<script src="../assets/js/login.js"></script>
+
+</body>
+</html>

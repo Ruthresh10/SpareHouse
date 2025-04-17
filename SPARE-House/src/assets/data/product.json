@@ -1,0 +1,401 @@
+[
+    {
+        "brand": "Maruti Suzuki",
+        "models": [
+            {
+                "model": "Swift",
+                "spareParts": [
+                    {
+                        "name": "Brake Pad",
+                        "category": "Braking System",
+                        "price": 1500,
+                        "description": "High-quality brake pad for Maruti Suzuki Swift.",
+                        "image": "../assets/images/brake-pad.jpeg"
+                    },
+                    {
+                        "name": "Engine Oil",
+                        "category": "Engine Parts",
+                        "price": 1200,
+                        "description": "Premium engine oil for Maruti Suzuki Swift.",
+                        "image": "../assets/images/engine-oil.png"
+                    }
+                ]
+            },
+            {
+                "model": "Baleno",
+                "spareParts": [
+                    {
+                        "name": "Air Filter",
+                        "category": "Engine Parts",
+                        "price": 800,
+                        "description": "Efficient air filter for Maruti Suzuki Baleno.",
+                        "image": "../assets/images/air-filter.jpg"
+                    },
+                    {
+                        "name": "Suspension Kit",
+                        "category": "Wheels & Tires",
+                        "price": 5000,
+                        "description": "Durable suspension kit for Maruti Suzuki Baleno.",
+                        "image": "../assets/images/suspension-kit.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brand": "Tata Motors",
+        "models": [
+            {
+                "model": "Nexon",
+                "spareParts": [
+                    {
+                        "name": "Fuel Pump",
+                        "category": "Fuel System",
+                        "price": 3000,
+                        "description": "Reliable fuel pump for Tata Nexon.",
+                        "image": "../assets/images/fuel-pump.jpg"
+                    },
+                    {
+                        "name": "Headlight",
+                        "category": "Electrical",
+                        "price": 2000,
+                        "description": "Bright headlight for Tata Nexon.",
+                        "image": "../assets/images/headlight.jpg"
+                    }
+                ]
+            },
+            {
+                "model": "Harrier",
+                "spareParts": [
+                    {
+                        "name": "Battery",
+                        "category": "Electrical",
+                        "price": 4000,
+                        "description": "Long-lasting battery for Tata Harrier.",
+                        "image": "../assets/images/battery.jpg"
+                    },
+                    {
+                        "name": "Brake Disc",
+                        "category": "Braking System",
+                        "price": 3500,
+                        "description": "High-performance brake disc for Tata Harrier.",
+                        "image": "../assets/images/brake-disc.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brand": "Hyundai",
+        "models": [
+            {
+                "model": "i20",
+                "spareParts": [
+                    {
+                        "name": "Spark Plug",
+                        "category": "Engine Parts",
+                        "price": 600,
+                        "description": "Efficient spark plug for Hyundai i20.",
+                        "image": "../assets/images/spark-plug.jpg"
+                    },
+                    {
+                        "name": "Radiator",
+                        "category": "Engine Parts",
+                        "price": 4500,
+                        "description": "High-quality radiator for Hyundai i20.",
+                        "image": "../assets/images/radiator.jpg"
+                    }
+                ]
+            },
+            {
+                "model": "Creta",
+                "spareParts": [
+                    {
+                        "name": "Alloy Wheels",
+                        "category": "Wheels & Tires",
+                        "price": 12000,
+                        "description": "Stylish alloy wheels for Hyundai Creta.",
+                        "image": "../assets/images/alloy-wheels.jpg"
+                    },
+                    {
+                        "name": "Fog Light",
+                        "category": "Electrical",
+                        "price": 1500,
+                        "description": "Bright fog light for Hyundai Creta.",
+                        "image": "../assets/images/fog-light.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brand": "Honda",
+        "models": [
+            {
+                "model": "City",
+                "spareParts": [
+                    {
+                        "name": "Brake Fluid",
+                        "category": "Braking System",
+                        "price": 500,
+                        "description": "High-performance brake fluid for Honda City.",
+                        "image": "../assets/images/brake-fluid.jpg"
+                    },
+                    {
+                        "name": "Oil Filter",
+                        "category": "Engine Parts",
+                        "price": 400,
+                        "description": "Durable oil filter for Honda City.",
+                        "image": "../assets/images/oil-filter.jpg"
+                    }
+                ]
+            },
+            {
+                "model": "Amaze",
+                "spareParts": [
+                    {
+                        "name": "Shock Absorber",
+                        "category": "Wheels & Tires",
+                        "price": 3500,
+                        "description": "Reliable shock absorber for Honda Amaze.",
+                        "image": "../assets/images/shock-absorber.jpg"
+                    },
+                    {
+                        "name": "Tail Light",
+                        "category": "Electrical",
+                        "price": 1800,
+                        "description": "Bright tail light for Honda Amaze.",
+                        "image": "../assets/images/tail-light.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brand": "Mahindra",
+        "models": [
+            {
+                "model": "XUV500",
+                "spareParts": [
+                    {
+                        "name": "Turbocharger",
+                        "category": "Engine Parts",
+                        "price": 15000,
+                        "description": "High-performance turbocharger for Mahindra XUV500.",
+                        "image": "../assets/images/turbocharger.jpg"
+                    },
+                    {
+                        "name": "Brake Caliper",
+                        "category": "Braking System",
+                        "price": 4500,
+                        "description": "Durable brake caliper for Mahindra XUV500.",
+                        "image": "../assets/images/brake-caliper.jpg"
+                    }
+                ]
+            },
+            {
+                "model": "Thar",
+                "spareParts": [
+                    {
+                        "name": "Off-Road Tires",
+                        "category": "Wheels & Tires",
+                        "price": 20000,
+                        "description": "Heavy-duty off-road tires for Mahindra Thar.",
+                        "image": "../assets/images/off-road-tires.jpg"
+                    },
+                    {
+                        "name": "Winch",
+                        "category": "Accessories",
+                        "price": 10000,
+                        "description": "Powerful winch for Mahindra Thar.",
+                        "image": "../assets/images/winch.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brand": "Royal Enfield",
+        "models": [
+            {
+                "model": "Classic 350",
+                "spareParts": [
+                    {
+                        "name": "Exhaust System",
+                        "category": "Engine Parts",
+                        "price": 8000,
+                        "description": "Stylish exhaust system for Royal Enfield Classic 350.",
+                        "image": "../assets/images/exhaust-system.jpg"
+                    },
+                    {
+                        "name": "Handlebar",
+                        "category": "Accessories",
+                        "price": 2000,
+                        "description": "Comfortable handlebar for Royal Enfield Classic 350.",
+                        "image": "../assets/images/handlebar.jpg"
+                    },
+                    {
+                        "name": "Piston Kit",
+                        "category": "Engine Parts",
+                        "price": 4500,
+                        "description": "Complete piston kit including piston, rings, and gaskets for Royal Enfield Classic 350.",
+                        "image": "../assets/images/piston-kit.jpg"
+                    },
+                    {
+                        "name": "Cylinder Block",
+                        "category": "Engine Parts",
+                        "price": 12000,
+                        "description": "Durable cylinder block for Royal Enfield Classic 350.",
+                        "image": "../assets/images/cylinder-block.jpg"
+                    },
+                    {
+                        "name": "Crankshaft & Bearings",
+                        "category": "Engine Parts",
+                        "price": 8000,
+                        "description": "High-quality crankshaft and bearings for Royal Enfield Classic 350.",
+                        "image": "../assets/images/crankshaft.jpg"
+                    },
+                    {
+                        "name": "Camshaft & Timing Chain",
+                        "category": "Engine Parts",
+                        "price": 7000,
+                        "description": "Durable camshaft and timing chain for Royal Enfield Classic 350.",
+                        "image": "/assets/images/camshaft.jpg"
+                    },
+                    {
+                        "name": "Engine Valves & Valve Springs",
+                        "category": "Engine Parts",
+                        "price": 3000,
+                        "description": "High-quality engine valves and valve springs for Royal Enfield Classic 350.",
+                        "image": "../assets/images/engine-valves.jpg"
+                    },
+                    {
+                        "name": "Clutch Assembly",
+                        "category": "Transmission",
+                        "price": 6000,
+                        "description": "Complete clutch assembly for Royal Enfield Classic 350.",
+                        "image": "../assets/images/clutch-assembly.jpg"
+                    },
+                    {
+                        "name": "Gearbox Assembly",
+                        "category": "Transmission",
+                        "price": 15000,
+                        "description": "Reliable gearbox assembly for Royal Enfield Classic 350.",
+                        "image": "../assets/images/gearbox-assembly.png"
+                    },
+                    {
+                        "name": "Engine Oil Filter & Oil Pump",
+                        "category": "Engine Parts",
+                        "price": 2500,
+                        "description": "Efficient oil filter and oil pump for Royal Enfield Classic 350.",
+                        "image": "../assets/images/oil-filter.jpg"
+                    },
+                    {
+                        "name": "Spark Plug & Ignition Coil",
+                        "category": "Engine Parts",
+                        "price": 1500,
+                        "description": "Reliable spark plug and ignition coil for Royal Enfield Classic 350.",
+                        "image": "../assets/images/spark-plug.jpg"
+                    },
+                    {
+                        "name": "Timing Chain Tensioner",
+                        "category": "Engine Parts",
+                        "price": 2000,
+                        "description": "Durable timing chain tensioner for Royal Enfield Classic 350.",
+                        "image": "../assets/images/timing-chain-tensioner.jpg"
+                    }
+                ]
+            },
+            {
+                "model": "Himalayan",
+                "spareParts": [
+                    {
+                        "name": "Crash Guard",
+                        "category": "Accessories",
+                        "price": 3000,
+                        "description": "Durable crash guard for Royal Enfield Himalayan.",
+                        "image": "../assets/images/crash-guard.jpg"
+                    },
+                    {
+                        "name": "Saddle Bags",
+                        "category": "Accessories",
+                        "price": 5000,
+                        "description": "Spacious saddle bags for Royal Enfield Himalayan.",
+                        "image": "../assets/images/saddle-bags.jpg"
+                    },
+                    {
+                        "name": "Piston Kit",
+                        "category": "Engine Parts",
+                        "price": 5000,
+                        "description": "Complete piston kit including piston, rings, and gaskets for Royal Enfield Himalayan.",
+                        "image": "../assets/images/piston-kit.jpg"
+                    },
+                    {
+                        "name": "Cylinder Block",
+                        "category": "Engine Parts",
+                        "price": 13000,
+                        "description": "Durable cylinder block for Royal Enfield Himalayan.",
+                        "image": "../assets/images/cylinder-block.jpg"
+                    },
+                    {
+                        "name": "Crankshaft & Bearings",
+                        "category": "Engine Parts",
+                        "price": 8500,
+                        "description": "High-quality crankshaft and bearings for Royal Enfield Himalayan.",
+                        "image": "/assets/images/camshaft.jpg"
+                    },
+                    {
+                        "name": "Camshaft & Timing Chain",
+                        "category": "Engine Parts",
+                        "price": 7500,
+                        "description": "Durable camshaft and timing chain for Royal Enfield Himalayan.",
+                        "image": "/assets/images/camshaft.jpg"
+                    },
+                    {
+                        "name": "Engine Valves & Valve Springs",
+                        "category": "Engine Parts",
+                        "price": 3500,
+                        "description": "High-quality engine valves and valve springs for Royal Enfield Himalayan.",
+                        "image": "../assets/images/engine-valves.jpg"
+                    },
+                    {
+                        "name": "Clutch Assembly",
+                        "category": "Transmission",
+                        "price": 6500,
+                        "description": "Complete clutch assembly for Royal Enfield Himalayan.",
+                        "image": "../assets/images/clutch-assembly.jpg"
+
+                    },
+                    {
+                        "name": "Gearbox Assembly",
+                        "category": "Transmission",
+                        "price": 16000,
+                        "description": "Reliable gearbox assembly for Royal Enfield Himalayan.",
+                        "image": "../assets/images/piston-kit.jpg"
+                    },
+                    {
+                        "name": "Engine Oil Filter & Oil Pump",
+                        "category": "Engine Parts",
+                        "price": 2800,
+                        "description": "Efficient oil filter and oil pump for Royal Enfield Himalayan.",
+                        "image": "../assets/images/oil-filter.jpg"
+                    },
+                    {
+                        "name": "Spark Plug & Ignition Coil",
+                        "category": "Engine Parts",
+                        "price": 1800,
+                        "description": "Reliable spark plug and ignition coil for Royal Enfield Himalayan.",
+                        "image": "../assets/images/spark-plug.jpg"
+                    },
+                    {
+                        "name": "Timing Chain Tensioner",
+                        "category": "Engine Parts",
+                        "price": 2200,
+                        "description": "Durable timing chain tensioner for Royal Enfield Himalayan.",
+                        "image": "../assets/images/timing-chain-tensioner.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]
